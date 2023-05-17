@@ -126,6 +126,7 @@ Partial Class Form4
         '
         Me.txtResultadoOperacao.Location = New System.Drawing.Point(101, 305)
         Me.txtResultadoOperacao.Name = "txtResultadoOperacao"
+        Me.txtResultadoOperacao.ReadOnly = True
         Me.txtResultadoOperacao.Size = New System.Drawing.Size(100, 23)
         Me.txtResultadoOperacao.TabIndex = 10
         '
