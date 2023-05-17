@@ -19,3 +19,24 @@ C:\ProjGit0123\ProgGit0123\obj\Debug\net7.0-windows\ProgGit0123.Form2.resources
 C:\ProjGit0123\ProgGit0123\obj\Debug\net7.0-windows\ProgGit0123.Form3.resources
 C:\ProjGit0123\ProgGit0123\obj\Debug\net7.0-windows\ProgGit0123.Form4.resources
 C:\ProjGit0123\ProgGit0123\obj\Debug\net7.0-windows\ProgGit0123.Form5.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\bin\Debug\net7.0-windows\ProgGit0123.exe
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\bin\Debug\net7.0-windows\ProgGit0123.deps.json
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\bin\Debug\net7.0-windows\ProgGit0123.runtimeconfig.json
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\bin\Debug\net7.0-windows\ProgGit0123.dll
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\bin\Debug\net7.0-windows\ProgGit0123.pdb
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.vbproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.Form1.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.Form2.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.Form3.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.Form4.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.Form5.resources
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.vbproj.GenerateResource.cache
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.AssemblyInfo.vb
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.dll
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\refint\ProgGit0123.dll
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.pdb
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ProgGit0123.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - IEFP Formação\Contabilidade\Ambiente de Trabalho\gitAlexandre\Prog01\obj\Debug\net7.0-windows\ref\ProgGit0123.dll
