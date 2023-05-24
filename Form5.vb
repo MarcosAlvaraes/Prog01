@@ -30,4 +30,12 @@ Public Class Form5
 
         lblLegendaTestes.Text = Int((100 * Rnd()) + 1)
     End Sub
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+
+        lblLegendaTestes.Show()
+        lblLegendaTestes.BackColor = SystemColors.Control
+        Me.BackColor = SystemColors.Control
+        lblLegendaTestes.Text = "Isto é uma legenda!"
+    End Sub
 End Class

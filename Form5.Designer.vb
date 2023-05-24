@@ -28,12 +28,14 @@ Partial Class Form5
         Me.btnMudarCorFundoLegenda = New System.Windows.Forms.Button()
         Me.btnMudarCorFundoFormulario = New System.Windows.Forms.Button()
         Me.btnEscrevcerNumeroNaLegenda = New System.Windows.Forms.Button()
+        Me.btnReset = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblLegendaTestes
         '
+        Me.lblLegendaTestes.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblLegendaTestes.AutoSize = True
-        Me.lblLegendaTestes.BackColor = System.Drawing.SystemColors.Menu
+        Me.lblLegendaTestes.BackColor = System.Drawing.SystemColors.MenuBar
         Me.lblLegendaTestes.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.lblLegendaTestes.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lblLegendaTestes.Location = New System.Drawing.Point(28, 32)
@@ -41,6 +43,7 @@ Partial Class Form5
         Me.lblLegendaTestes.Size = New System.Drawing.Size(251, 37)
         Me.lblLegendaTestes.TabIndex = 0
         Me.lblLegendaTestes.Text = "Isto é uma legenda!"
+        Me.lblLegendaTestes.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'btnEsconder
         '
@@ -87,11 +90,21 @@ Partial Class Form5
         Me.btnEscrevcerNumeroNaLegenda.Text = "Escrever um numero"
         Me.btnEscrevcerNumeroNaLegenda.UseVisualStyleBackColor = True
         '
+        'btnReset
+        '
+        Me.btnReset.Location = New System.Drawing.Point(228, 347)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(64, 23)
+        Me.btnReset.TabIndex = 10
+        Me.btnReset.Text = "Reset"
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
         'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(304, 359)
+        Me.ClientSize = New System.Drawing.Size(304, 382)
+        Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnEscrevcerNumeroNaLegenda)
         Me.Controls.Add(Me.btnMudarCorFundoFormulario)
         Me.Controls.Add(Me.btnMudarCorFundoLegenda)
@@ -111,4 +124,5 @@ Partial Class Form5
     Friend WithEvents btnMudarCorFundoLegenda As Button
     Friend WithEvents btnMudarCorFundoFormulario As Button
     Friend WithEvents btnEscrevcerNumeroNaLegenda As Button
+    Friend WithEvents btnReset As Button
 End Class
