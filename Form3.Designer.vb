@@ -32,13 +32,15 @@ Partial Class Form3
         Me.btnCalcularVolume = New System.Windows.Forms.Button()
         Me.txtBoxResultadoVolume = New System.Windows.Forms.TextBox()
         Me.lblResultadoVolume = New System.Windows.Forms.Label()
+        Me.lblAvisoVolume = New System.Windows.Forms.Label()
+        Me.btnLimparVolume = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblCalcularVolume
         '
         Me.lblCalcularVolume.AutoSize = True
         Me.lblCalcularVolume.Font = New System.Drawing.Font("Segoe UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblCalcularVolume.Location = New System.Drawing.Point(52, 58)
+        Me.lblCalcularVolume.Location = New System.Drawing.Point(52, 35)
         Me.lblCalcularVolume.Name = "lblCalcularVolume"
         Me.lblCalcularVolume.Size = New System.Drawing.Size(279, 28)
         Me.lblCalcularVolume.TabIndex = 0
@@ -47,7 +49,7 @@ Partial Class Form3
         'lblComprimento
         '
         Me.lblComprimento.AutoSize = True
-        Me.lblComprimento.Location = New System.Drawing.Point(92, 149)
+        Me.lblComprimento.Location = New System.Drawing.Point(74, 101)
         Me.lblComprimento.Name = "lblComprimento"
         Me.lblComprimento.Size = New System.Drawing.Size(85, 15)
         Me.lblComprimento.TabIndex = 1
@@ -56,7 +58,7 @@ Partial Class Form3
         'lblLargura
         '
         Me.lblLargura.AutoSize = True
-        Me.lblLargura.Location = New System.Drawing.Point(92, 192)
+        Me.lblLargura.Location = New System.Drawing.Point(74, 147)
         Me.lblLargura.Name = "lblLargura"
         Me.lblLargura.Size = New System.Drawing.Size(50, 15)
         Me.lblLargura.TabIndex = 2
@@ -65,7 +67,7 @@ Partial Class Form3
         'lblAtura
         '
         Me.lblAtura.AutoSize = True
-        Me.lblAtura.Location = New System.Drawing.Point(92, 235)
+        Me.lblAtura.Location = New System.Drawing.Point(74, 194)
         Me.lblAtura.Name = "lblAtura"
         Me.lblAtura.Size = New System.Drawing.Size(42, 15)
         Me.lblAtura.TabIndex = 3
@@ -73,28 +75,28 @@ Partial Class Form3
         '
         'txtBoxComprimento
         '
-        Me.txtBoxComprimento.Location = New System.Drawing.Point(192, 146)
+        Me.txtBoxComprimento.Location = New System.Drawing.Point(192, 98)
         Me.txtBoxComprimento.Name = "txtBoxComprimento"
         Me.txtBoxComprimento.Size = New System.Drawing.Size(100, 23)
         Me.txtBoxComprimento.TabIndex = 4
         '
         'txtBoxLargura
         '
-        Me.txtBoxLargura.Location = New System.Drawing.Point(192, 189)
+        Me.txtBoxLargura.Location = New System.Drawing.Point(192, 144)
         Me.txtBoxLargura.Name = "txtBoxLargura"
         Me.txtBoxLargura.Size = New System.Drawing.Size(100, 23)
         Me.txtBoxLargura.TabIndex = 5
         '
         'txtBoxAltura
         '
-        Me.txtBoxAltura.Location = New System.Drawing.Point(192, 232)
+        Me.txtBoxAltura.Location = New System.Drawing.Point(192, 191)
         Me.txtBoxAltura.Name = "txtBoxAltura"
         Me.txtBoxAltura.Size = New System.Drawing.Size(100, 23)
         Me.txtBoxAltura.TabIndex = 6
         '
         'btnCalcularVolume
         '
-        Me.btnCalcularVolume.Location = New System.Drawing.Point(116, 284)
+        Me.btnCalcularVolume.Location = New System.Drawing.Point(111, 246)
         Me.btnCalcularVolume.Name = "btnCalcularVolume"
         Me.btnCalcularVolume.Size = New System.Drawing.Size(130, 63)
         Me.btnCalcularVolume.TabIndex = 7
@@ -103,7 +105,7 @@ Partial Class Form3
         '
         'txtBoxResultadoVolume
         '
-        Me.txtBoxResultadoVolume.Location = New System.Drawing.Point(192, 386)
+        Me.txtBoxResultadoVolume.Location = New System.Drawing.Point(192, 370)
         Me.txtBoxResultadoVolume.Name = "txtBoxResultadoVolume"
         Me.txtBoxResultadoVolume.Size = New System.Drawing.Size(100, 23)
         Me.txtBoxResultadoVolume.TabIndex = 8
@@ -111,17 +113,40 @@ Partial Class Form3
         'lblResultadoVolume
         '
         Me.lblResultadoVolume.AutoSize = True
-        Me.lblResultadoVolume.Location = New System.Drawing.Point(92, 389)
+        Me.lblResultadoVolume.Location = New System.Drawing.Point(92, 373)
         Me.lblResultadoVolume.Name = "lblResultadoVolume"
         Me.lblResultadoVolume.Size = New System.Drawing.Size(50, 15)
         Me.lblResultadoVolume.TabIndex = 9
         Me.lblResultadoVolume.Text = "Volume:"
+        '
+        'lblAvisoVolume
+        '
+        Me.lblAvisoVolume.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblAvisoVolume.ForeColor = System.Drawing.Color.Red
+        Me.lblAvisoVolume.Location = New System.Drawing.Point(42, 396)
+        Me.lblAvisoVolume.Name = "lblAvisoVolume"
+        Me.lblAvisoVolume.Size = New System.Drawing.Size(279, 30)
+        Me.lblAvisoVolume.TabIndex = 10
+        Me.lblAvisoVolume.Text = "ERRO"
+        Me.lblAvisoVolume.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblAvisoVolume.Visible = False
+        '
+        'btnLimparVolume
+        '
+        Me.btnLimparVolume.Location = New System.Drawing.Point(125, 325)
+        Me.btnLimparVolume.Name = "btnLimparVolume"
+        Me.btnLimparVolume.Size = New System.Drawing.Size(102, 23)
+        Me.btnLimparVolume.TabIndex = 11
+        Me.btnLimparVolume.Text = "Limpar"
+        Me.btnLimparVolume.UseVisualStyleBackColor = True
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(367, 450)
+        Me.Controls.Add(Me.btnLimparVolume)
+        Me.Controls.Add(Me.lblAvisoVolume)
         Me.Controls.Add(Me.lblResultadoVolume)
         Me.Controls.Add(Me.txtBoxResultadoVolume)
         Me.Controls.Add(Me.btnCalcularVolume)
@@ -149,4 +174,6 @@ Partial Class Form3
     Friend WithEvents btnCalcularVolume As Button
     Friend WithEvents txtBoxResultadoVolume As TextBox
     Friend WithEvents lblResultadoVolume As Label
+    Friend WithEvents lblAvisoVolume As Label
+    Friend WithEvents btnLimparVolume As Button
 End Class

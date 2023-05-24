@@ -8,7 +8,9 @@ Public Class Form5
     End Sub
 
     Private Sub btnEsconder_Click(sender As Object, e As EventArgs) Handles btnEsconder.Click
+
         lblLegendaTestes.Hide()
+
     End Sub
 
     Private Sub btnMudarCorFundoLegenda_Click(sender As Object, e As EventArgs) Handles btnMudarCorFundoLegenda.Click
@@ -29,6 +31,7 @@ Public Class Form5
         MyValue = Int((100 * Rnd()) + 1)
 
         lblLegendaTestes.Text = Int((100 * Rnd()) + 1)
+
     End Sub
 
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
@@ -37,5 +40,6 @@ Public Class Form5
         lblLegendaTestes.BackColor = SystemColors.Control
         Me.BackColor = SystemColors.Control
         lblLegendaTestes.Text = "Isto é uma legenda!"
+
     End Sub
 End Class

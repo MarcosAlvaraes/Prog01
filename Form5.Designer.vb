@@ -34,7 +34,6 @@ Partial Class Form5
         'lblLegendaTestes
         '
         Me.lblLegendaTestes.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblLegendaTestes.AutoSize = True
         Me.lblLegendaTestes.BackColor = System.Drawing.SystemColors.MenuBar
         Me.lblLegendaTestes.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.lblLegendaTestes.ForeColor = System.Drawing.SystemColors.ControlText
@@ -43,7 +42,7 @@ Partial Class Form5
         Me.lblLegendaTestes.Size = New System.Drawing.Size(251, 37)
         Me.lblLegendaTestes.TabIndex = 0
         Me.lblLegendaTestes.Text = "Isto é uma legenda!"
-        Me.lblLegendaTestes.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.lblLegendaTestes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnEsconder
         '
@@ -114,7 +113,6 @@ Partial Class Form5
         Me.Name = "Form5"
         Me.Text = "Form5"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

@@ -28,6 +28,7 @@ Partial Class Form2
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.lable1 = New System.Windows.Forms.Label()
+        Me.btnLimparNomes = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -48,10 +49,11 @@ Partial Class Form2
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(144, 203)
+        Me.TextBox3.Location = New System.Drawing.Point(144, 216)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(317, 23)
+        Me.TextBox3.ReadOnly = True
+        Me.TextBox3.Size = New System.Drawing.Size(316, 23)
         Me.TextBox3.TabIndex = 2
         '
         'Button1
@@ -84,11 +86,21 @@ Partial Class Form2
         Me.lable1.TabIndex = 5
         Me.lable1.Text = "Escreva dois nomes nas caixas em baixo "
         '
+        'btnLimparNomes
+        '
+        Me.btnLimparNomes.Location = New System.Drawing.Point(261, 177)
+        Me.btnLimparNomes.Name = "btnLimparNomes"
+        Me.btnLimparNomes.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimparNomes.TabIndex = 6
+        Me.btnLimparNomes.Text = "Limpar"
+        Me.btnLimparNomes.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(560, 270)
+        Me.Controls.Add(Me.btnLimparNomes)
         Me.Controls.Add(Me.lable1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -109,4 +121,5 @@ Partial Class Form2
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents lable1 As Label
+    Friend WithEvents btnLimparNomes As Button
 End Class

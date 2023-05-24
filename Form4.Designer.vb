@@ -33,6 +33,7 @@ Partial Class Form4
         Me.btnDividir = New System.Windows.Forms.Button()
         Me.lblResultado = New System.Windows.Forms.Label()
         Me.txtResultadoOperacao = New System.Windows.Forms.TextBox()
+        Me.lblAviso = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblPrimeiroNumero
@@ -130,11 +131,25 @@ Partial Class Form4
         Me.txtResultadoOperacao.Size = New System.Drawing.Size(100, 23)
         Me.txtResultadoOperacao.TabIndex = 10
         '
+        'lblAviso
+        '
+        Me.lblAviso.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.lblAviso.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblAviso.ForeColor = System.Drawing.Color.Red
+        Me.lblAviso.Location = New System.Drawing.Point(22, 331)
+        Me.lblAviso.Name = "lblAviso"
+        Me.lblAviso.Size = New System.Drawing.Size(200, 24)
+        Me.lblAviso.TabIndex = 11
+        Me.lblAviso.Text = "ERRO"
+        Me.lblAviso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblAviso.Visible = False
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(246, 363)
+        Me.ClientSize = New System.Drawing.Size(246, 374)
+        Me.Controls.Add(Me.lblAviso)
         Me.Controls.Add(Me.txtResultadoOperacao)
         Me.Controls.Add(Me.lblResultado)
         Me.Controls.Add(Me.btnDividir)
@@ -164,4 +179,5 @@ Partial Class Form4
     Friend WithEvents btnDividir As Button
     Friend WithEvents lblResultado As Label
     Friend WithEvents txtResultadoOperacao As TextBox
+    Friend WithEvents lblAviso As Label
 End Class
