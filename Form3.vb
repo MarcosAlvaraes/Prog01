@@ -35,6 +35,7 @@
         txtBoxAltura.Text = String.Empty
         txtBoxComprimento.Text = String.Empty
         txtBoxLargura.Text = String.Empty
+        txtBoxResultadoVolume.Text = String.Empty
 
     End Sub
 

@@ -33,53 +33,71 @@ Partial Class Form2
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(144, 77)
+        Me.TextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.Location = New System.Drawing.Point(115, 74)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(151, 23)
+        Me.TextBox1.Size = New System.Drawing.Size(136, 23)
         Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(305, 77)
+        Me.TextBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox2.Location = New System.Drawing.Point(276, 74)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(155, 23)
+        Me.TextBox2.Size = New System.Drawing.Size(140, 23)
         Me.TextBox2.TabIndex = 1
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(144, 216)
+        Me.TextBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox3.Location = New System.Drawing.Point(115, 213)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(316, 23)
+        Me.TextBox3.Size = New System.Drawing.Size(301, 23)
         Me.TextBox3.TabIndex = 2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(160, 121)
+        Me.Button1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(115, 118)
         Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(135, 51)
+        Me.Button1.Size = New System.Drawing.Size(136, 51)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Trocar os nomes nas caixas de texto"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(305, 121)
+        Me.Button2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button2.Location = New System.Drawing.Point(276, 118)
         Me.Button2.Margin = New System.Windows.Forms.Padding(2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(135, 51)
+        Me.Button2.Size = New System.Drawing.Size(140, 51)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Juntar os nomes na caixa em baixo"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'lable1
         '
+        Me.lable1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lable1.AutoSize = True
-        Me.lable1.Location = New System.Drawing.Point(179, 38)
+        Me.lable1.Location = New System.Drawing.Point(150, 35)
         Me.lable1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lable1.Name = "lable1"
         Me.lable1.Size = New System.Drawing.Size(221, 15)
@@ -88,9 +106,12 @@ Partial Class Form2
         '
         'btnLimparNomes
         '
-        Me.btnLimparNomes.Location = New System.Drawing.Point(261, 177)
+        Me.btnLimparNomes.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnLimparNomes.Location = New System.Drawing.Point(232, 174)
         Me.btnLimparNomes.Name = "btnLimparNomes"
-        Me.btnLimparNomes.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimparNomes.Size = New System.Drawing.Size(60, 23)
         Me.btnLimparNomes.TabIndex = 6
         Me.btnLimparNomes.Text = "Limpar"
         Me.btnLimparNomes.UseVisualStyleBackColor = True
@@ -99,7 +120,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(560, 270)
+        Me.ClientSize = New System.Drawing.Size(517, 277)
         Me.Controls.Add(Me.btnLimparNomes)
         Me.Controls.Add(Me.lable1)
         Me.Controls.Add(Me.Button2)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\gitAlexandre\\Prog01\\ProgGit0123.vbproj": {}
+    "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\Sql e Git e HTML\\gitAlexandre\\Prog01\\ProgGit0123.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\gitAlexandre\\Prog01\\ProgGit0123.vbproj": {
+    "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\Sql e Git e HTML\\gitAlexandre\\Prog01\\ProgGit0123.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\gitAlexandre\\Prog01\\ProgGit0123.vbproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\Sql e Git e HTML\\gitAlexandre\\Prog01\\ProgGit0123.vbproj",
         "projectName": "ProgGit0123",
-        "projectPath": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\gitAlexandre\\Prog01\\ProgGit0123.vbproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\Sql e Git e HTML\\gitAlexandre\\Prog01\\ProgGit0123.vbproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\gitAlexandre\\Prog01\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive - IEFP Formação\\Contabilidade\\Ambiente de Trabalho\\Sql e Git e HTML\\gitAlexandre\\Prog01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
